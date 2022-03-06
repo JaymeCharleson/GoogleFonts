@@ -93,11 +93,16 @@ table {
   color: grey;
   min-width: 100%;
   text-align: left;
+  text-background-color: #111111;
 }
 th {
-  background-color: var(--dark);
+  background-color: #111111;
   border: solid 1px black;
 }
+th, tr {
+  background-color: #111111;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
