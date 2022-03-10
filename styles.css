@@ -2,7 +2,7 @@
   box-sizing: border-box;
   background-color: #181A1A;
 }
-.row::after {
+.row {
   content: "";
   clear: both;
   display: table;
@@ -29,6 +29,9 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+li:hover{
+  
 }
 .header {
   float: center;
